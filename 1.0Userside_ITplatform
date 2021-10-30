@@ -1,0 +1,193 @@
+<html>
+    <style>
+        body{
+            color: black;
+            font-family: georgia;
+            text-align: center;
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcSeA3ZsxeG2TLBUYPPxPMUdzmUgHG8wI-eQ&usqp=CAU);
+          height:100%;
+          background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+        }
+    </style>
+    <h1 id="title">MANTHAN</h1>
+    <p id="description">THANK YOU FOR NOT BEING A SILENT SPECTATOR</p>
+    <form id="tip-off">
+        <div id="He">
+            <label id="name-label">
+                <p>State: </p>
+                <select id="name">
+                  <option value="default">Select the State</option>
+                  <option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+<option value="Assam">Assam</option>
+<option value="Bihar">Bihar</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Chhattisgarh">Chhattisgarh</option>
+<option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+<option value="Daman and Diu">Daman and Diu</option>
+<option value="Delhi">Delhi</option>
+<option value="Lakshadweep">Lakshadweep</option>
+<option value="Puducherry">Puducherry</option>
+<option value="Goa">Goa</option>
+<option value="Gujarat">Gujarat</option>
+<option value="Haryana">Haryana</option>
+<option value="Himachal Pradesh">Himachal Pradesh</option>
+<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+<option value="Jharkhand">Jharkhand</option>
+<option value="Karnataka">Karnataka</option>
+<option value="Kerala">Kerala</option>
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Manipur">Manipur</option>
+<option value="Meghalaya">Meghalaya</option>
+<option value="Mizoram">Mizoram</option>
+<option value="Nagaland">Nagaland</option>
+<option value="Odisha">Odisha</option>
+<option value="Punjab">Punjab</option>
+<option value="Rajasthan">Rajasthan</option>
+<option value="Sikkim">Sikkim</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Telangana">Telangana</option>
+<option value="Tripura">Tripura</option>
+<option value="Uttar Pradesh">Uttar Pradesh</option>
+<option value="Uttarakhand">Uttarakhand</option>
+<option value="West Bengal">West Bengal</option>
+              </select>
+            </label>
+            <label id="city-name">
+                <p>City: </p>
+                <input id="cname" type="text" placeholder="Enter the City" required>
+            </label>
+            <label id="location-name">
+                <p>Location: </p>
+                <input id="locname" type="text" placeholder="Enter the Location" required>
+            </label>
+        </div>
+      <br>
+      <br>
+      <br>
+        <div id="To">
+            <label id="cat">
+                <p>Category: </p>
+                <select id="dropdown">
+                    <option value="default">Select category</option>
+                    <option value="Murder">Murder</option>
+                    <option value="Theft">Theft</option>
+                    <option value="Rape">Rape</option>
+                    <option value="Aggravated-crime">Aggravated Crime</option>
+                    <option value="Robbery">Robbery</option>
+                  <option value="other">Other</option>
+                </select>
+            </label>
+            <label id="tipoff">
+                <p>Tip-off: </p>
+                <textarea id="comment" rows="4" cold="40">Drop them here</textarea><br>
+            </label>
+            <label id="urgrncy">
+                <p>Rate the Urgency</p>
+                <select id="urgency">
+                    <option value="default">Select the rate of urgency</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </label>
+        </div>
+      <br>
+        <div id="qs">
+            <label id="Questionnaire">
+                <p>Questionnaire</p>
+              <textarea id="question">Questions:</textarea>
+                <input type="submit" id="submit" value="submit">
+            </label>
+        </div>
+    </form>
+</html>
+#title {
+    text-align: center;
+    font-family: Sans-serif;
+  }
+  #description {
+    text-align: center;
+  }
+  #He {
+    width: 800px;
+    padding: 40px;
+    margin: auto;
+    background-color: lavender;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+  }
+  #name {
+    width: 800px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  #cname {
+    width: 772px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  #locname {
+    width: 772px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  #To {
+   width: 800px;
+    padding: 40px;
+    margin: auto;
+    background-color: lavender;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px; 
+  }
+  #dropdown {
+    width: 800px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  #comment {
+    width: 772px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  #urgency {
+    width: 800px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  #qs {
+    width: 800px;
+    padding: 40px;
+    margin: auto;
+    background-color: lavender;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;  
+  }
+  #question {
+    width: 772px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  #submit {
+    width: 800px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3%;
+    background-color: darkseagreen;
+  }
+  
